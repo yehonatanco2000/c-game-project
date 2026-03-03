@@ -3,6 +3,16 @@
 ## Overview
 A colorful, terminal-based puzzle adventure game developed in C++. This project features a custom level parsing system, robust save/load functionality, and an advanced replay verification architecture, all running directly within the command-line console.
 
+## Game Objective & Mechanics
+You (and a friend) control two characters, `$` and `&`, trapped in a series of puzzle rooms. Your goal is to work together to navigate the level, bypass obstacles, and reach the exit door to advance to the next room.
+
+**To succeed, you will need to:**
+* **Collect Keys:** Find keys (`k`) to unlock numbered doors (e.g., Door `3` requires 3 keys).
+* **Solve Riddles:** Step on `?` tiles and answer trivia questions. Correct answers boost your score, while wrong answers will penalize you and reset your position!
+* **Use Explosives:** Pick up bombs (`@`) to clear obstacles (`*`), destroy closed doors, or even bypass riddles. But be careful – the blast has a 3x3 radius and can hurt you!
+* **Manipulate the Environment:** Step on switches (`/`, `\`, `+`, `-`) to remotely open doors or alter walls. Use springs (`#`) to propel yourself forward.
+* **Manage Resources:** Keep an eye on your Health (Lives) and your Torch (`!`) which illuminates dark areas.
+
 ## Technical Architecture & Methodologies
 * **Language & Core:** C++17, Standard Template Library (STL).
 * **Design Principles:** Strict adherence to Object-Oriented Programming (OOP) concepts, including Polymorphism and Encapsulation.
