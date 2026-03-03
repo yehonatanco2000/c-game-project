@@ -1,6 +1,0 @@
-Ex2 FIXES
-=========
-1. Player positions: Use $ and & in screen file, or auto-find
-2. Switch config: Use + / - for wall switches (separate from / \ for doors)
-3. Dynamic rooms: Loads all adv-worldXX.screen files (01-99)
-4. Documentation: See SCREEN_FORMAT.txt
