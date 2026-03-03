@@ -1,0 +1,2 @@
+we add a colors feature by pressing at the menu 7. 
+add one more object to remove walls by + or - .

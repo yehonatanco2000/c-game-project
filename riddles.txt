@@ -1,0 +1,60 @@
+[RIDDLE]
+What is the output?
+
+#define WHAT(x,y) (x*2) >= y ? (x/2) : (y*2)
+
+ void main() {
+  float a;
+  a = WHAT(WHAT(1+4,1+5),1+6);
+  printf(%.0f,a);
+}
+*3
+*13
+*2
+*14
+Correct: 2
+
+[RIDDLE]
+You are writing a program that consists of several source files
+A global function named: somefunc is fully implemented in two diffrent files
+which statements is correct?
+*The program will fail to compile in every case.
+*The program will fail to link only if the prototypes in the two files are diffrent.
+*The program will fail to link only if the function bodies in the two files are diffrent.
+*None of the above answers is correct.
+Correct: 1
+
+[RIDDLE]
+What will be the result of running the following code:
+
+#define X 17
+
+#ifndef X
+    printf("Hello");
+#else
+    printf("World");
+#endif
+
+void main(){}
+*World
+*Hello
+*The program does not compile.
+*The program will run and will not display any output.
+Correct: 3
+
+
+[RIDDLE]
+What will be the result of running the following code:
+
+void main() {
+
+    int a[4][2] = {{1,2},{3,4},{5,6},{7,8}};
+    printf("%d %d \n", *(a[2]+1), a[2][-2]);
+
+}
+
+* segmentation fault
+* 4 3
+* 6 3
+* 4 1
+Correct: 3

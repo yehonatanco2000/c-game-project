@@ -1,0 +1,29 @@
+RIDDLE,41,P1,CORRECT,You are writing a program that consists of several source files
+A global function named: somefunc is fully implemented in two diffrent files
+which statements is correct?,The program will fail to compile in every case.
+LIFE,77,P1,4
+LIFE,178,P2,4
+RIDDLE,226,P2,CORRECT,What is the output?
+#define WHAT(x,y) (x*2) >= y ? (x/2) : (y*2)
+ void main() {
+  float a;
+  a = WHAT(WHAT(1+4,1+5),1+6);
+  printf(%.0f,a);
+},13
+ROOM,360,P1,1
+ROOM,377,P2,1
+RIDDLE,396,P2,CORRECT,What will be the result of running the following code:
+#define X 17
+#ifndef X
+    printf("Hello");
+#else
+    printf("World");
+#endif
+void main(){},The program does not compile.
+LIFE,777,P1,3
+LIFE,777,P2,3
+LIFE,843,P1,2
+LIFE,843,P2,2
+ROOM,910,P2,2
+ROOM,921,P1,2
+END,1000,SCORE,550

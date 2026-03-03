@@ -1,0 +1,20 @@
+SCREEN FILE FORMAT
+==================
+Size: 80x25, File: adv-worldXX.screen
+
+CHARACTERS:
+W=Wall, k=Key, @=Bomb, !=Torch, ?=Riddle, #=Spring, *=Obstacle
+D=Dark area, L=HUD position
+$=Player1 start, &=Player2 start
+1-9=Doors
+
+SWITCHES:
+/=Door switch ON, \=Door switch OFF
++=Wall switch ON, -=Wall switch OFF
+
+STEP AND RESULT FILES:
+to check them you must change the name (only remove the digit) for exemple: adv-world1.steps -> adv-world.steps
+same with result files
+
+CONFIG (after row 25):
+KEYS:X=Y - Door X needs Y keys
